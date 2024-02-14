@@ -19,26 +19,27 @@
 
     <body>
         
-        <h1>Telefono Rojo</h1>
+        <h1>Teléfono Rojo</h1>
 
         <div class="contenedor-telefono">
             <img class="telefono" src="./img/telefono-rojo.webp">
         </div>
 
         <div class="contenedor-form">
-            <p>¡Has recibido una llamada del telefono rojo! ¿La vas a cojer?</p>        
+            <p>¡Has recibido una llamada del teléfono rojo! ¿La vas a cojer?</p>        
 
-            <form action="./index.php" method="GET">
+            <form action="./recibir/recibir.php" method="GET">
 
                 <button class="btn">
-                    <label>Si</label>
+                    <a href="./decision/si/reglas-juego.php">Si</a>
                 </button>
 
                 <button class="btn">
-                    <label>No</label>
+                    <a href="./decision/no/rendicion.php"">No</a>
                 </button>
 
             </form>
+
         </div>
 
     </body>
