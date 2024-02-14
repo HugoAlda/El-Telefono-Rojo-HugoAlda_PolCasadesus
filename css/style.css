@@ -8,3 +8,19 @@ h1 {
     text-align: center;
     color: red;
 }
+
+.contenedor-telefono {
+    width: 100%;
+    
+}
+
+.telefono {
+    width: 50%;
+    padding-left: 300px;
+}
+
+p {
+    color: white;
+    font-size: larger;
+    text-align: center;
+}
