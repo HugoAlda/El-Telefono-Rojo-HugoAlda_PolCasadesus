@@ -22,7 +22,14 @@
             <p>¿Quieres volver a cojer la llamada?</p>
             <img src="./../../img/rendicion.png">
             <br><br>
-            <a href="./../../index.php">Si</a>
+            <form method="GET">
+
+                <button class="btn">
+                    <a class="btn" href="./../../index.php">Si</a>
+                </button>
+
+            </form>
+            
         </div>
         
     </body>

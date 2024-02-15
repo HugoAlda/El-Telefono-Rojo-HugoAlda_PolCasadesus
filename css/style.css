@@ -55,11 +55,6 @@ button:hover {
     font-size: 15px;
 }
 
-.btn {
-    margin: 20px;
-    font-size: 22px;
-}
-
 .btn > a {
     text-decoration: none;
     color: white;
@@ -67,4 +62,34 @@ button:hover {
 
 .btn:hover {
     text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+}
+
+.btn a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 3px;
+    background-color: red;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.btn a:hover::after {
+    transform: scaleX(1);
 }
