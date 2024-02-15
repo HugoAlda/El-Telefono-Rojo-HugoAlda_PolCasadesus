@@ -11,14 +11,20 @@
 
         <link rel="stylesheet" href="./../../css/style-no.css">
 
-        <title>Rendicion</title>
+        <title>Rendición</title>
 
     </head>
 
     <body>
-    
-        <h1>Te has rendido muy pronto</h1>
 
+        <div class="contenedor-rendicion">
+            <h1>Te has rendido muy pronto</h1>
+            <p>¿Quieres volver a cojer la llamada?</p>
+            <img src="./../../img/rendicion.png">
+            <br><br>
+            <a href="./../../index.php">Si</a>
+        </div>
+        
     </body>
 
 </html>

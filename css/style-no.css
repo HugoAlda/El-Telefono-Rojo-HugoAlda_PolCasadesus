@@ -11,7 +11,28 @@ body {
     background-color: black;
 }
 
-h1 {
-    text-align: center;
+.contenedor-rendicion {
+    text-align: center; /* Centra el contenido del contenedor horizontalmente */
+    padding-top: 70px;  
+}
+
+.contenedor-rendicion > h1 {
     color: red;
+}
+
+.contenedor-rendicion > p {
+    color: white;
+}
+
+ a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    width: 40%;
 }
