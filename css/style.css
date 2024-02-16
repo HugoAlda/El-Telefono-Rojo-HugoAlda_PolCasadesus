@@ -14,16 +14,17 @@ body {
 h1 {
     text-align: center;
     color: red;
+    font-size: 40px;
 }
 
 .contenedor-telefono {
     width: 100%;
-    
+    margin-top: 40px;
 }
 
 .telefono {
-    width: 50%;
-    padding-left: 300px;
+    width: 48%;
+    padding-left: 330px;
 }
 
 p {

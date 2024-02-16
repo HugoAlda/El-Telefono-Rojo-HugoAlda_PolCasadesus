@@ -21,6 +21,8 @@
         
         <h1>Teléfono Rojo</h1>
 
+   
+
         <div class="contenedor-telefono">
             <img class="telefono" src="./img/telefono-rojo.webp">
         </div>
@@ -31,11 +33,11 @@
             <form action="./recibir/recibir.php" method="GET">
 
                 <button class="btn">
-                    <a href="./decision/si/reglas-juego.php">Si</a>
+                    <a class="btn" href="./decision/si/reglas-juego.php">Si</a>
                 </button>
 
                 <button class="btn">
-                    <a href="./decision/no/rendicion.php"">No</a>
+                    <a class="btn" href="./decision/no/rendicion.php"">No</a>
                 </button>
 
             </form>
