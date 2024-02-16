@@ -13,7 +13,7 @@ body {
 
 .contenedor-rendicion {
     text-align: center; /* Centra el contenido del contenedor horizontalmente */
-    padding-top: 70px;  
+    padding-top: 25px;  
 }
 
 .contenedor-rendicion > h1 {
@@ -34,7 +34,8 @@ a:hover {
 }
 
 img {
-    width: 40%;
+    width: 50%;
+    height: 390px;
 }
 
 form {

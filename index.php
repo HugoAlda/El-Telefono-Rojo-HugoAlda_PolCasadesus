@@ -35,7 +35,7 @@
                 </button>
 
                 <button class="btn">
-                    <a class="btn" href="./decision/no/rendicion.php"">No</a>
+                    <a class="btn" href="./decision/no/rendicion.php">No</a>
                 </button>
 
             </form>

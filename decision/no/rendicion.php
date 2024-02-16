@@ -19,9 +19,12 @@
 
         <div class="contenedor-rendicion">
             <h1>Te has rendido muy pronto</h1>
+            <br>
+            <p>¡El Popocatépetl ha entrado en erupción y no has podido salvar a la humanidad!</p>
             <p>¿Quieres volver a cojer la llamada?</p>
-            <img src="./../../img/rendicion.png">
-            <br><br>
+            <br>
+            <img src="./../../img/QKPN.gif">
+            <br>
             <form method="GET">
 
                 <button class="btn">
