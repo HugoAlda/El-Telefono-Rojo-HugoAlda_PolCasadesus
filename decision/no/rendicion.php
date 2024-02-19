@@ -27,7 +27,7 @@
             <img src="./../../img/rendicion.gif">
             <br>
             <br>
-            <form method="GET">
+            <form action="./../recibir/recibir.php" method="GET">
 
                 <button class="btn">
                     <a class="btn" href="./../../index.php">Si</a>
