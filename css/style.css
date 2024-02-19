@@ -20,11 +20,11 @@ h1 {
 .contenedor-telefono {
     width: 100%;
     margin-top: 30px;
+    text-align: center;
 }
 
 .telefono {
     width: 48%;
-    padding-left: 330px;
 }
 
 p {

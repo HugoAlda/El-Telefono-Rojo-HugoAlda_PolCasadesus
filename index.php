@@ -22,7 +22,7 @@
         <h1>Teléfono Rojo</h1>
 
         <div class="contenedor-telefono">
-            <img class="telefono" src="./img/telefono-rojo.webp">
+            <img class="telefono" src="./img/telefono-rojo.png">
         </div>
 
         <div class="contenedor-form">

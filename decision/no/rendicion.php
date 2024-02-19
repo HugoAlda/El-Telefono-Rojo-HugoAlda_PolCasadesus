@@ -21,9 +21,11 @@
             <h1>Te has rendido muy pronto</h1>
             <br>
             <p>¡El Popocatépetl ha entrado en erupción y no has podido salvar a la humanidad!</p>
-            <p>¿Quieres volver a cojer la llamada?</p>
             <br>
-            <img src="./../../img/QKPN.gif">
+            <p>¿Quieres tirar un reset y volver a intentarlo?</p>
+            <br>
+            <img src="./../../img/rendicion.gif">
+            <br>
             <br>
             <form method="GET">
 
