@@ -37,6 +37,30 @@
 
         </main>
 
+        <div class="contenedor-form">
+
+            <form action="./recibir/recibir.php" method="GET">
+
+                <br>
+
+                <p class="titulo-reto">¿Aceptas el reto?</p>
+
+                <button class="btn">
+
+                    <a class="btn" href="">Acepto el reto</a>
+                
+                </button>
+
+                <button class="btn">
+
+                    <a class="btn" href="./../no/rendicion.php">No acepto el reto</a>
+                
+                </button>
+
+            </form>
+
+        </div>
+
         
 
     </body>
