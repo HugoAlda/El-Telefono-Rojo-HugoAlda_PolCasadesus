@@ -19,6 +19,12 @@
 
         <h1>Reglas del juego</h1>
 
+        <main>
+            
+            <h3>Reglas</h3>
+            
+        </main>
+
     </body>
 
 </html>
