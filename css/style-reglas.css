@@ -16,6 +16,11 @@ h1 {
     color: red;
 }
 
+h3 {
+    text-align: center;
+    color: red;
+}
+
 .contenedor-telefono {
     width: 100%;
     
