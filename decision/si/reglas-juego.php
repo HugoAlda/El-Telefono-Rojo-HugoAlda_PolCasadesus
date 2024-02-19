@@ -17,13 +17,27 @@
 
     <body>
 
+        <br>
+
         <h1>Reglas del juego</h1>
 
-        <main>
-            
-            <h3>Reglas</h3>
-            
+        <br>
+
+        <main class="contenedor-reglas-general">
+
+            <div class="contenedor-reglas">
+                
+                <br>
+
+                <h3><u>Reglas</u></h3>
+
+                <p class="letras">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit nobis, corrupti mollitia recusandae consequatur voluptatibus! Hic officiis facere, beatae voluptatibus eos quia repudiandae. Veritatis quasi quo iure quam nihil officia?</p>
+
+            </div>
+
         </main>
+
+        
 
     </body>
 

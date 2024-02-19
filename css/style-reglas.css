@@ -18,12 +18,11 @@ h1 {
 
 h3 {
     text-align: center;
-    color: red;
+    color: black;
 }
 
 .contenedor-telefono {
     width: 100%;
-    
 }
 
 .telefono {
@@ -35,4 +34,24 @@ p {
     color: white;
     font-size: larger;
     text-align: center;
+}
+
+.contenedor-reglas-general {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-reglas {
+    width: 20%;
+    background-color: red;
+    height: 500px;
+    overflow: hidden;
+    
+}
+
+.letras {
+    text-align: justify;
+    margin: 25px;
+    color: black;
 }
