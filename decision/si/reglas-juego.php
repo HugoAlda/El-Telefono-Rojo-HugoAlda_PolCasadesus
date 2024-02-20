@@ -26,20 +26,26 @@
         <main class="contenedor-reglas-general">
 
             <div class="contenedor-reglas">
-                
+
                 <br>
 
                 <h3><u>Reglas</u></h3>
 
                 <div class="contenedor-letras-reglas">
-                    
-                    <p class="letras">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit nobis, corrupti mollitia recusandae consequatur voluptatibus! Hic officiis facere, beatae voluptatibus eos quia repudiandae. Veritatis quasi quo iure quam nihil officia?</p>
+
+                    <div class="intro">
+
+                        <p>¡En una galaxia muy, muy lejana...</p>
+
+                    </div>
 
                 </div>
 
             </div>
 
         </main>
+
+
 
         <div class="contenedor-form">
 

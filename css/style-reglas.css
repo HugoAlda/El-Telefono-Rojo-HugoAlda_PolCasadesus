@@ -48,17 +48,13 @@ p {
     height: 500px;
 }
 
-.letras {
-    text-align: justify;
-    margin: 25px;
-    color: black;
-}
-
 .contenedor-letras-reglas {
     background-color: blue;
     margin: 25px;
     height: auto;
     padding: 1px;
+    position: relative;
+    overflow: hidden;
 }
 
 /* ESTILOS FORMULARIO */

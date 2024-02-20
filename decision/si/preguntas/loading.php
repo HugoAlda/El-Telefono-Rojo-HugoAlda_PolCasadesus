@@ -20,7 +20,7 @@
 
     <div class="contenedor-carga">
 
-        <h3>Preparando el viaje...</h3>
+        <h3>Preparando las cosas para el viaje...</h3>
 
         <div class="barra">
 
