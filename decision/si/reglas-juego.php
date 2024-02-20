@@ -31,7 +31,11 @@
 
                 <h3><u>Reglas</u></h3>
 
-                <p class="letras">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit nobis, corrupti mollitia recusandae consequatur voluptatibus! Hic officiis facere, beatae voluptatibus eos quia repudiandae. Veritatis quasi quo iure quam nihil officia?</p>
+                <div class="contenedor-letras-reglas">
+                    
+                    <p class="letras">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit nobis, corrupti mollitia recusandae consequatur voluptatibus! Hic officiis facere, beatae voluptatibus eos quia repudiandae. Veritatis quasi quo iure quam nihil officia?</p>
+
+                </div>
 
             </div>
 
@@ -47,7 +51,7 @@
 
                 <button class="btn">
 
-                    <a class="btn" href="">Acepto el reto</a>
+                    <a class="btn" href="./preguntas/loading.php">Acepto el reto</a>
                 
                 </button>
 
