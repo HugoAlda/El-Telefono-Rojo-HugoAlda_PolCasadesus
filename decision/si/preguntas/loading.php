@@ -16,15 +16,33 @@
 
 <body>
     
-    <h3>Cargando...</h3>
-    
-    <div class="barra">
+    <br>
+
+    <div class="contenedor-carga">
+
+        <h3>Preparando el viaje...</h3>
+
+        <div class="barra">
+
+            <div class="progreso" id="progreso"></div>
+
+        </div>
         
-        <div class="progreso" id="progreso"></div>
+        <br>
+        <br>
+
+        <div class="contenedor-img">
+
+            <img class="img" src="./../../../img/aventura.png">
+
+        </div>
+        
 
     </div>
 
     <script src="script.js"></script>
+
+    
 
 </body>
 

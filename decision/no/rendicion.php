@@ -30,7 +30,7 @@
             <form action="./../recibir/recibir.php" method="GET">
 
                 <button class="btn">
-                    <a class="btn" href="./../../index.php">Si</a>
+                    <a class="btn" href="./../../index.php">Tirar Reset</a>
                 </button>
 
             </form>

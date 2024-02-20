@@ -31,11 +31,11 @@
             <form action="./recibir/recibir.php" method="GET">
 
                 <button class="btn">
-                    <a class="btn" href="./decision/si/reglas-juego.php">Si</a>
+                    <a class="btn" href="./decision/si/reglas-juego.php">Cojerla</a>
                 </button>
 
                 <button class="btn">
-                    <a class="btn" href="./decision/no/rendicion.php">No</a>
+                    <a class="btn" href="./decision/no/rendicion.php">Mejor no...</a>
                 </button>
 
             </form>
