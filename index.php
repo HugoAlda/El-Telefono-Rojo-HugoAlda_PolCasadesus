@@ -21,9 +21,13 @@
         
         <h1>Teléfono Rojo</h1>
 
+        <br>
+
         <div class="contenedor-telefono">
             <img class="telefono" src="./img/telefono-rojo.png">
         </div>
+        
+        <br>
 
         <div class="contenedor-form">
             <p>¡Has recibido una llamada del teléfono rojo! ¿La vas a cojer?</p>        
