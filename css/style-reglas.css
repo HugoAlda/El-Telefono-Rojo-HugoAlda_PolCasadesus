@@ -54,6 +54,13 @@ p {
     color: black;
 }
 
+.contenedor-letras-reglas {
+    background-color: blue;
+    margin: 25px;
+    height: auto;
+    padding: 1px;
+}
+
 /* ESTILOS FORMULARIO */
 
 form {
