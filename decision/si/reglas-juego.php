@@ -16,62 +16,31 @@
     </head>
 
     <body>
+    <br>
+    <div class="fade"></div>
+        
+    <div class="star-wars">
+        <div class="text">
 
-        <br>
-
-        <h1>Reglas del juego</h1>
-
-        <br>
-
-        <main class="contenedor-reglas-general">
-
-            <div class="contenedor-reglas">
-
-                <br>
-
-                <h3><u>Reglas</u></h3>
-
-                <div class="contenedor-letras-reglas">
-
-                    <div class="intro">
-
-                        <p>¡En una galaxia muy, muy lejana...</p>
-
-                    </div>
-
-                </div>
-
+            <div class="title">
+                <h1>Reglas del juego</h1>
             </div>
 
-        </main>
-
-
-
-        <div class="contenedor-form">
-
-            <form action="./recibir/recibir.php" method="GET">
-
-                <br>
-
-                <p class="titulo-reto">¿Aceptas el reto?</p>
-
-                <button class="btn">
-
-                    <a class="btn" href="./preguntas/loading.php">Acepto el reto</a>
-                
-                </button>
-
-                <button class="btn">
-
-                    <a class="btn" href="./../no/rendicion.php">No acepto el reto</a>
-                
-                </button>
-
-            </form>
-
+            <p></p>
+                   
+            <div class="contenedor-form">
+                <form action="./recibir/recibir.php" method="GET">
+                    <p class="titulo-reto">¿Aceptas el reto?</p>
+                    <button class="btn">
+                        <a class="btn" href="./preguntas/loading.php">Acepto el reto</a>
+                    </button>
+                    <button class="btn">
+                        <a class="btn" href="./../no/rendicion.php">No acepto el reto</a>
+                    </button>
+                </form>
+            </div>
         </div>
-
-        
+    </div>
 
     </body>
 
