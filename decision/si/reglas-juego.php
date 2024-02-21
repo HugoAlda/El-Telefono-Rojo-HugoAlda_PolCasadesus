@@ -19,14 +19,14 @@
     <br>
     <div class="fade"></div>
         
-    <div class="star-wars">
+    <div class="animacion">
         <div class="text">
 
             <div class="title">
                 <h1>Reglas del juego</h1>
             </div>
 
-            <p></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ea illum incidunt laudantium nulla at nemo, sit obcaecati voluptatibus tempora architecto quisquam nam fuga totam consectetur rem ducimus reprehenderit possimus.</p>
                    
             <div class="contenedor-form">
                 <form action="./recibir/recibir.php" method="GET">

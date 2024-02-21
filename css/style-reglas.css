@@ -39,11 +39,11 @@ p {
 
 /* ESTILOS ANIMACION REGLAS */
 
-.star-wars {
+.animacion {
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 80%;
     height: 800px; 
     perspective: 400px;
     color: #feda4a;

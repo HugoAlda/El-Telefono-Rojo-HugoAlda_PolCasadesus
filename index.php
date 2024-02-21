@@ -21,8 +21,6 @@
         
         <h1>Teléfono Rojo</h1>
 
-        <br>
-
         <div class="contenedor-telefono">
             <img class="telefono" src="./img/telefono-rojo.png">
         </div>
