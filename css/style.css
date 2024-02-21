@@ -94,3 +94,7 @@ button:hover {
 .btn a:hover::after {
     transform: scaleX(1);
 }
+
+.contenedor-pantalla {
+    width: 100%;
+}

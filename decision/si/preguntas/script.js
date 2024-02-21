@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (width >= 100) {
             clearInterval(id);
             setTimeout(function() {
-                window.location.href = "./pregunta1/pregunta1.php";
+                window.location.href = "./menu.php";
             }, 2000); // Tiempo de espera antes de redirigir
         } else {
             width++;

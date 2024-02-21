@@ -42,19 +42,21 @@ p {
 .animacion {
     position: fixed;
     bottom: 0;
-    left: 0;
+    left: 50%; 
+    transform: translateX(-50%); 
     width: 80%;
-    height: 800px; 
+    height: 800px;
     perspective: 400px;
     color: #feda4a;
-    font-size: 2vw; 
-    font-weight: 600; 
+    font-size: 2vw;
+    font-weight: 600;
     line-height: 150%;
     text-align: justify;
     padding: 100px;
     padding-left: 40px;
     padding-right: 40px;
 }
+
 
 .text {
     position: relative;
