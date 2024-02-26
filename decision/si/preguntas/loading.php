@@ -15,35 +15,20 @@
 </head>
 
 <body>
-    
     <br>
-
-    <div class="contenedor-carga">
-
-        <h3>Preparando las cosas para el viaje...</h3>
-
-        <div class="barra">
-
-            <div class="progreso" id="progreso"></div>
-
+    <div class="contenedor-general">
+        <div class="contenedor-carga">
+            <h3>Preparando las cosas para el viaje...</h3>
+            <div class="barra">
+                <div class="progreso" id="progreso"></div>
+            </div>
         </div>
-        
         <br>
         <br>
-
         <div class="contenedor-img">
-
             <img class="img" src="./../../../img/aventura.png">
-
         </div>
-        
-
     </div>
-
-    <script src="script.js"></script>
-
-    
-
+    <script src="./script.js"></script>
 </body>
-
 </html>
