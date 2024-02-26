@@ -18,7 +18,7 @@
     <body>
     <br>
     <div class="fade"></div>
-        
+
     <div class="animacion">
         <div class="text">
 
@@ -27,7 +27,9 @@
             </div>
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ea illum incidunt laudantium nulla at nemo, sit obcaecati voluptatibus tempora architecto quisquam nam fuga totam consectetur rem ducimus reprehenderit possimus.</p>
-                   
+            
+            <br>
+
             <div class="contenedor-form">
                 <form action="./recibir/recibir.php" method="GET">
                     <p class="titulo-reto">¿Aceptas el reto?</p>
