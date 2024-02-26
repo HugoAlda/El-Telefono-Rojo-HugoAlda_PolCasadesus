@@ -28,13 +28,13 @@ body {
 .fila1 {
     display: flex;
     height: 390px;
-    margin: 20px; /* Adjusted margin */
+    margin: 20px;
 }
 
 .fila2 {
     display: flex;
     height: 390px;
-    margin: 20px; /* Adjusted margin */
+    margin: 20px;
 }
 
 .box {
@@ -42,7 +42,7 @@ body {
     flex-wrap: wrap;
     border: 2px solid red;
     padding: 20px;
-    margin: 20px; /* Added margin */
+    margin: 20px;
     background-color: white;
 }
 
