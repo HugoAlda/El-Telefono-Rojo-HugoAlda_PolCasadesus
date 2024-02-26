@@ -20,7 +20,7 @@
             <br>
             <h1>Menu</h1>
         </div>
-        <div class="menu">
+        <div class="menu container">
             <div class="fila1">
                 <div class="box" onclick="zoomIn(this)">
                     <h2>Título 1</h2>
