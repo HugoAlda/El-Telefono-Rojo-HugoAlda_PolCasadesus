@@ -11,7 +11,7 @@
     
     <title>Teléfono Rojo</title>
 </head>
-
+<br>
 <body>
     <div class="contenedor-pantalla">
         <h1>Teléfono Rojo</h1>
