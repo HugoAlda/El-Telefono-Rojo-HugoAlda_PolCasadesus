@@ -49,4 +49,47 @@ body {
 h1 {
     text-align: center;
     color: red;
+    font-size: 30px;
+}
+
+.box.zoomed {
+    width: 100%;
+    height: auto;
+    z-index: 9999;
+    transform: none; /* Anula cualquier transformación */
+    transition: 2s;
+}
+
+.exit-button {
+    display: none; /* Oculta el botón por defecto */
+    cursor: pointer;
+    transition: 2s;
+}
+
+body.zoomed .box {
+    width: 33.33% !important;
+    height: 390px !important;
+}
+
+body.zoomed .exit-button {
+    display: block;
+}
+
+.exit-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.box {
+    transition: 2s;
+}
+
+body.zoomed .box.zoomed {
+    width: 33.33% !important;
+    height: 390px !important;
+    transform: none !important;
+    transition: 2s;
 }
