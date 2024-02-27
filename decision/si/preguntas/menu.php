@@ -58,6 +58,6 @@
         </div>
     </div>
 
-    <script src="./script-menu.js"></script>
+    <script src="script-menu.js"></script>
 
 </body>
