@@ -26,7 +26,7 @@
                 <h1>Reglas del juego</h1>
             </div>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ea illum incidunt laudantium nulla at nemo, sit obcaecati voluptatibus tempora architecto quisquam nam fuga totam consectetur rem ducimus reprehenderit possimus.</p>
+            <p>¡Buenas querido aventurero descubridor de la verdad! Te voy a explicar las reglas de tu pequeña aventura para salvar el mundo. Tendras que superar unas cuantas pruebas para que sepamos que eres merecedor de la verdad y te podamos entregar la lengua de fuego para apagar de una vez por todas el Popocatépetl de su inminente destrucción.</p>
             
             <br>
 
