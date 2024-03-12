@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+.header {
+    padding-top: 30px;
+}
+
 body {
     background-color: black;
 }
@@ -92,4 +96,9 @@ body.zoomed .box.zoomed {
     height: 390px !important;
     transform: none !important;
     transition: 2s;
+}
+
+img {
+    width: 55%;
+    margin-left: 120px;
 }

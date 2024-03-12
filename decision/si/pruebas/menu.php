@@ -14,45 +14,47 @@
 </head>
 
 <body>
-    <div class="pagina">
-        <div class="fila-h1">
-            <br>
-            <br>
+
+    <header>
+        <div class="header">
             <h1>Menu</h1>
         </div>
+    </header>
+
+    <div class="pagina">
         <div class="menu container">
             <div class="fila1">
-                <div class="box" onclick="zoomIn(this)">
-                    <h2>Título 1</h2>
-                    <p>Contenido del div 1</p>
-                    <button class="exit-button" onclick="zoomOut(event)">Salir del Zoom</button>
+                <div class="box">
+                    <a href="./pruebas/prueba1.php">
+                        <img src="./../../../img/boton-rojo.png">
+                    </a>
                 </div>
-                <div class="box" onclick="zoomIn(this)">
-                    <h2>Título 2</h2>
-                    <p>Contenido del div 2</p>
-                    <button class="exit-button" onclick="zoomOut(event)">Salir del Zoom</button>
+                <div class="box">
+                    <a href="./pruebas/prueba2.php">
+                        <img src="./../../../img/boton-rojo.png">
+                    </a>
                 </div>
-                <div class="box" onclick="zoomIn(this)">
-                    <h2>Título 3</h2>
-                    <p>Contenido del div 3</p>
-                    <button class="exit-button" onclick="zoomOut(event)">Salir del Zoom</button>
+                <div class="box">
+                    <a href="./pruebas/prueba3.php">
+                        <img src="./../../../img/boton-rojo.png">
+                    </a>
                 </div>
             </div>
             <div class="fila2">
-                <div class="box" onclick="zoomIn(this)">
-                    <h2>Título 4</h2>
-                    <p>Contenido del div 4</p>
-                    <button class="exit-button" onclick="zoomOut(event)">Salir del Zoom</button>
+                <div class="box">
+                    <a href="./pruebas/prueba4.php">
+                        <img src="./../../../img/boton-rojo.png">
+                    </a>
                 </div>
-                <div class="box" onclick="zoomIn(this)">
-                    <h2>Título 5</h2>
-                    <p>Contenido del div 5</p>
-                    <button class="exit-button" onclick="zoomOut(event)">Salir del Zoom</button>
+                <div class="box">
+                    <a href="./pruebas/prueba5.php">
+                        <img src="./../../../img/boton-rojo.png">
+                    </a>
                 </div>
-                <div class="box" onclick="zoomIn(this)">
-                    <h2>Título 6</h2>
-                    <p>Contenido del div 6</p>
-                    <button class="exit-button" onclick="zoomOut(event)">Salir del Zoom</button>
+                <div class="box">
+                    <a href="./pruebas/prueba6.php">
+                        <img src="./../../../img/boton-rojo.png">
+                    </a>
                 </div>
             </div>
         </div>
