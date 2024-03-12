@@ -34,7 +34,7 @@
                 <form action="./recibir/recibir.php" method="GET">
                     <p class="titulo-reto">¿Aceptas el reto?</p>
                     <button class="btn">
-                        <a class="btn" href="./preguntas/loading.php">Acepto el reto</a>
+                        <a class="btn" href="./pruebas/loading.php">Acepto el reto</a>
                     </button>
                     <button class="btn">
                         <a class="btn" href="./../no/rendicion.php">No acepto el reto</a>
