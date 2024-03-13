@@ -19,7 +19,6 @@
     <div class="container">
         <img src="./../../../../img/boton-rojo.png" draggable="true" ondragstart="drag(event)" id="loro">
         <img src="./../../../../img/boton-rojo.png" draggable="true" ondragstart="drag(event)" id="gato">
-        <img src="./../../../../img/boton-rojo.png" draggable="true" ondragstart="drag(event)" id="perro">
     </div>
 
     <div class="container-figura">
@@ -30,10 +29,6 @@
         <div class="figura">
             <div class="box" id="1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
             <h2>Azul</h2>
-        </div>
-        <div class="figura">
-            <div class="box" id="2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            <h2>Verde</h2>
         </div>
     </div>
 

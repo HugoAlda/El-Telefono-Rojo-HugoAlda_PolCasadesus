@@ -1,15 +1,13 @@
 // Array of draggable images
 const images = [
     document.getElementById('loro'),
-    document.getElementById('gato'),
-    document.getElementById('perro')
+    document.getElementById('gato')
 ];
 
 // Array of drop targets
 const targets = [
     document.getElementById('0'),
-    document.getElementById('1'),
-    document.getElementById('2')
+    document.getElementById('1')
 ];
 
 // Attach dragstart event listener to each image
@@ -36,6 +34,13 @@ targets.forEach(target => {
 
         // Move the image to the target
         target.appendChild(image);
+
+        // Adjust the size of the image to fit the target container
+        const targetWidth = target.clientWidth;
+        const targetHeight = target.clientHeight;
+
+        image.style.width = targetWidth + 'px';
+        image.style.height = targetHeight + 'px';
     });
 });
 
@@ -63,4 +68,7 @@ labels.forEach(label => {
                     document.body.appendChild(error);
                 }
             }
-        }
+        };
+        xhr.send(); // This line was missing in the original code
+    });
+});

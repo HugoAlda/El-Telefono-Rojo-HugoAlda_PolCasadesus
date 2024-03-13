@@ -25,7 +25,7 @@
         <div class="menu container">
             <div class="fila1">
                 <div class="box">
-                    <a href="./pruebas/prueba1.php">
+                    <a href="./pruebas/prueba1/prueba1.html">
                         <img src="./../../../img/boton-rojo.png">
                     </a>
                     <h3>Prueba 1</h3>
