@@ -31,7 +31,7 @@ body, html {
 
 .barra {
     width: 100%;
-    max-width: 550px;
+    max-width: 400px;
     height: 20px;
     background-color: #f0f0f0;
     margin-top: 20px;
@@ -61,5 +61,5 @@ h3 {
 
 .img {
     width: 100%;
-    max-width: 550px; /* Ajustado al 600px, puedes cambiarlo según tus necesidades */
+    max-width: 400px; /* Ajustado al 600px, puedes cambiarlo según tus necesidades */
 }

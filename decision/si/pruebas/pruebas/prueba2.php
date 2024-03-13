@@ -44,7 +44,7 @@
 
         session_start();
         if(!isset($_SESSION['nivel2'])){
-            header('location: ./../menu.php?error=Completa la primera prueba...');
+            header('location: ./../menu.php?error=Completa_la_prueba_anterior...');
         }
 
     ?>
