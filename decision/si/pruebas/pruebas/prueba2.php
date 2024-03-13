@@ -5,36 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Pregunta 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style_prueba2.css">
+
+    <title>Prueba 2</title>
 
 </head>
 <body>
 
-    <h1>Pregunta 1 - Arrastra</h1>
-
     <div class="container">
-        <img src="" draggable="true" ondragstart="drag(event)" id="">
-        <img src="" draggable="true" ondragstart="drag(event)" id="">
-        <img src="" draggable="true" ondragstart="drag(event)" id="">
-        <img src="" draggable="true" ondragstart="drag(event)" id="">
+        <img src="./../../../../img/boton-rojo.png" draggable="true" ondragstart="drag(event)" id="loro">
+        <img src="./../../../../img/boton-rojo.png" draggable="true" ondragstart="drag(event)" id="gato">
+        <img src="./../../../../img/boton-rojo.png" draggable="true" ondragstart="drag(event)" id="perro">
     </div>
-    
-    <div class="container">
+
+    <div class="container-figura">
         <div class="figura">
-            <div class="box" id="" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            <h2>Persona 1</h2>
+            <div class="box" id="0" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <h2>Rojo</h2>
         </div>
         <div class="figura">
-            <div class="box" id="" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            <h2>Persona 2</h2>
+            <div class="box" id="1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <h2>Azul</h2>
         </div>
         <div class="figura">
-            <div class="box" id="" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            <h2>Persona 3</h2>
-        </div>
-        <div class="figura">
-            <div class="box" id="" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            <h2>Persona 4</h2>
+            <div class="box" id="2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <h2>Verde</h2>
         </div>
     </div>
 
@@ -42,10 +41,7 @@
 
     <?php
 
-        session_start();
-        if(!isset($_SESSION['nivel2'])){
-            header('location: ./../menu.php?error=Completa_la_prueba_anterior...');
-        }
+    
 
     ?>
 
