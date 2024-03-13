@@ -61,4 +61,6 @@ labels.forEach(label => {
                     error.className = 'error';
                     error.textContent = response.message;
                     document.body.appendChild(error);
-                   
+                }
+            }
+        }
