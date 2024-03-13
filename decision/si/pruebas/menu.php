@@ -28,16 +28,19 @@
                     <a href="./pruebas/prueba1.php">
                         <img src="./../../../img/boton-rojo.png">
                     </a>
+                    <h3>Prueba 1</h3>
                 </div>
                 <div class="box">
                     <a href="./pruebas/prueba2.php">
                         <img src="./../../../img/boton-rojo.png">
                     </a>
+                    <h3>Prueba 2</h3>
                 </div>
                 <div class="box">
                     <a href="./pruebas/prueba3.php">
                         <img src="./../../../img/boton-rojo.png">
                     </a>
+                    <h3>Prueba 3</h3>
                 </div>
             </div>
             <div class="fila2">
@@ -45,21 +48,30 @@
                     <a href="./pruebas/prueba4.php">
                         <img src="./../../../img/boton-rojo.png">
                     </a>
+                    <h3>Prueba 4</h3>
                 </div>
                 <div class="box">
                     <a href="./pruebas/prueba5.php">
                         <img src="./../../../img/boton-rojo.png">
                     </a>
+                    <h3>Prueba 5</h3>
                 </div>
                 <div class="box">
                     <a href="./pruebas/prueba6.php">
                         <img src="./../../../img/boton-rojo.png">
                     </a>
+                    <h3>Prueba 6</h3>
                 </div>
             </div>
         </div>
     </div>
 
     <script src="script-menu.js"></script>
+
+    <?php
+
+    session_start();
+
+    ?>
 
 </body>
