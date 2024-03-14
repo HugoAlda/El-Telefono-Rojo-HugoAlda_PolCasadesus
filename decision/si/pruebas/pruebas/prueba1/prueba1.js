@@ -23,22 +23,6 @@ let mostrarTiempo = document.getElementById("t-restante");
 let numeros = [1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8];
 numeros = numeros.sort(() => {return Math.random() -0.5});
 
-function mostrarBotonMenu() {
-    // Crea un nuevo elemento de botón
-    const botonMenu = document.createElement("button");
-    botonMenu.textContent = "Volver al menú";
-    botonMenu.id = "botonMenu"; // Asigna un id al botón
-    
-    // Asigna un evento de clic al botón para redirigir a menu.php
-    botonMenu.addEventListener("click", function() {
-        window.location.href = "../../menu.php";
-    });
-
-    // Agrega el botón al final del cuerpo del documento
-    document.body.appendChild(botonMenu);
-}
-
-
 function contarTiempo(){
     tiempoRegresivoId = setInterval(() => {
         timer--;
@@ -50,6 +34,16 @@ function contarTiempo(){
 
     },1000);
 
+}
+
+function ocultarBotonMenu(){
+    // Ocultar el botón del formulario
+    document.getElementById("botonMenu").style.display = "none";
+}
+
+function mostrarBotonMenu(){
+    // Mostrar el botón del formulario
+    document.getElementById("botonMenu").style.display = "block";
 }
 
 function bloquearTarjetas(){
@@ -88,12 +82,12 @@ function destapar(id){
             aciertos++;
             mostrarAciertos.innerHTML = `Aciertos: ${aciertos}`;
 
-            if(aciertos == 8){
+            if (aciertos == 8) {
                 clearInterval(tiempoRegresivoId);
                 mostrarAciertos.innerHTML = `Aciertos: ${aciertos}`;
                 mostrarMovimientos.innerHTML = `Movimientos: ${movimientos}`;
                 mostrarTiempo.innerHTML = `Fantástico: ${timerinicial - timer} segundos`;
-                mostrarBotonMenu();
+                mostrarBotonMenu(); // Llamada para mostrar el botón del menú
             }
         }else{
             setTimeout(() => {

@@ -49,6 +49,10 @@
             <h2 id="aciertos" class="estadisticas">Aciertos: 0</h2>
             <h2 id="t-restante" class="estadisticas">Tiempo: 50 segundos</h2>
             <h2 id="movimientos" class="estadisticas">Movimientos: 0</h2>
+            <br>
+            <form action="./../prueba2.php" method="POST" id="formPHP">
+                <input type="submit" value="Siguiente prueba" id="botonMenu" style="display: none;" onclick="mostrarBotonMenu()">
+            </form>
         </section>
     </main>
     

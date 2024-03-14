@@ -12,13 +12,14 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f2f2f2;
+    overflow: hidden;
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    padding-top: 120px;
 }
 
 .container-figura {
@@ -71,4 +72,9 @@ body {
     color: #fff;
     font-size: 24px;
     font-weight: bold;
+}
+
+img {
+    width: 150px;
+    margin: 20px;
 }

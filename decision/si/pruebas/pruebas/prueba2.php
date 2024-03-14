@@ -32,6 +32,10 @@
         </div>
     </div>
 
+    <form action="./prueba3.php">
+
+    </form>
+
     <script src="script.js"></script>
 
     <?php
