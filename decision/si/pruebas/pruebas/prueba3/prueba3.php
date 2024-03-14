@@ -511,10 +511,10 @@
 <text transform="matrix(1 0 0 1 591.7997 429.5999)" style="font-family:'Tahoma'; font-size:4px;" class="maplabels1">Com.</text>
 <text transform="matrix(1 0 0 1 944.0992 458.728)" style="font-family:'Tahoma'; font-size:7px;" class="maplabels1">Fiyi</text>
 </a>
-<a href="./../menu.php">
+<a href="./../../menu.php">
     <text transform="matrix(1 0 0 1 743.3992 199.0705)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Rusia</text>
 </a>
-<a href="./../../../no/rendicion.php">
+<a href="./../../../../no/rendicion.php">
 <text transform="matrix(1 0 0 1 643.8998 262.9525)" style="font-family:'Tahoma'; font-size:7px;" class="maplabels1">Kaz.</text>
 <text transform="matrix(1 0 0 1 602.4002 289.9)" style="font-family:'Tahoma'; font-size:4px;" class="maplabels1">Aze.</text>
 <text transform="matrix(1 0 0 1 659.5999 294.65)" style="font-family:'Tahoma'; font-size:4px;" class="maplabels1">Tyk.</text>

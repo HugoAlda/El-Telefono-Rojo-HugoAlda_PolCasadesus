@@ -31,13 +31,13 @@
                     <h3>Prueba 1</h3>
                 </div>
                 <div class="box">
-                    <a href="./pruebas/prueba2.php">
+                    <a href="./pruebas/prueba2/prueba2.php">
                         <img src="./../../../img/boton-rojo.png">
                     </a>
                     <h3>Prueba 2</h3>
                 </div>
                 <div class="box">
-                    <a href="./pruebas/prueba3.php">
+                    <a href="./pruebas/prueba3/prueba3.php">
                         <img src="./../../../img/boton-rojo.png">
                     </a>
                     <h3>Prueba 3</h3>
@@ -45,19 +45,19 @@
             </div>
             <div class="fila2">
                 <div class="box">
-                    <a href="./pruebas/prueba4.php">
+                    <a href="./pruebas/prueba4/prueba4.php">
                         <img src="./../../../img/boton-rojo.png">
                     </a>
                     <h3>Prueba 4</h3>
                 </div>
                 <div class="box">
-                    <a href="./pruebas/prueba5.php">
+                    <a href="./pruebas/prueba5/prueba5.php">
                         <img src="./../../../img/boton-rojo.png">
                     </a>
                     <h3>Prueba 5</h3>
                 </div>
                 <div class="box">
-                    <a href="./pruebas/prueba6.php">
+                    <a href="./pruebas/prueba6/prueba6.php">
                         <img src="./../../../img/boton-rojo.png">
                     </a>
                     <h3>Prueba 6</h3>
@@ -70,7 +70,29 @@
 
     <?php
 
-    session_start();
+    $nivel1=$_SESSION['nivel1'];
+    $nivel2=$_SESSION['nivel2'];
+    $nivel3=$_SESSION['nivel3'];
+    $nivel4=$_SESSION['nivel4'];
+    $nivel5=$_SESSION['nivel5'];
+    $nivel6=$_SESSION['nivel6'];
+    $nivelfinal=$_SESSION['nivelfinal'];
+    
+    if($nivel1 == "True"){
+        session_start();
+        $_SESSION['nivel1'] = true;
+    }
+
+    // //
+    // if(isset($_POST['error'])){
+    //     $error = $_GET['error'];
+    //     if($error == 1){
+    //         echo "Datos incorrectos";
+    //     }
+    //     if($error == 2){
+    //         echo "Completa el nivel 1 primero!";
+    //     }
+    // }
 
     ?>
 

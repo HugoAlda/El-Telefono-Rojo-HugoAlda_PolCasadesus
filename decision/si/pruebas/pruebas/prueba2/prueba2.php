@@ -17,18 +17,18 @@
 <body>
 
     <div class="container">
-        <img src="./../../../../img/boton-rojo.png" draggable="true" ondragstart="drag(event)" id="loro">
-        <img src="./../../../../img/boton-rojo.png" draggable="true" ondragstart="drag(event)" id="gato">
+        <img src="./img/a.jpg" draggable="true" ondragstart="drag(event)" id="loro">
+        <img src="./img/b.jpg" draggable="true" ondragstart="drag(event)" id="gato">
     </div>
 
     <div class="container-figura">
         <div class="figura">
             <div class="box" id="0" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            <h2>Rojo</h2>
+            <h2>Elite</h2>
         </div>
         <div class="figura">
             <div class="box" id="1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            <h2>Azul</h2>
+            <h2>Hibrido</h2>
         </div>
     </div>
 
@@ -39,9 +39,11 @@
     <script src="script.js"></script>
 
     <?php
-
-    
-
+        session_start();
+        if(!isset($_SESSION['nivel2'])){
+            header('location: ./../../menu.php');
+            echo "Completa el nivel 1 antes de continuar!";
+        }
     ?>
 
 </body> 
