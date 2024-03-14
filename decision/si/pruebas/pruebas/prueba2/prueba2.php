@@ -39,11 +39,7 @@
     <script src="script.js"></script>
 
     <?php
-        session_start();
-        if(!isset($_SESSION['nivel2'])){
-            header('location: ./../../menu.php');
-            echo "Completa el nivel 1 antes de continuar!";
-        }
+        
     ?>
 
 </body> 
