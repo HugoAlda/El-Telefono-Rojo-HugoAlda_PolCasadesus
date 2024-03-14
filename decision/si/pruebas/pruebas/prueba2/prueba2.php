@@ -31,7 +31,7 @@
             <h2>Hibrido</h2>
         </div>
     </div>
-
+    
     <form action="./prueba3.php">
 
     </form>

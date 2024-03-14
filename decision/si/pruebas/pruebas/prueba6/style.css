@@ -1,0 +1,25 @@
+* {
+    @import url(https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap);
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+h4 {
+    text-align: center;
+    color: red;
+}
+
+form {
+    align-items: center;
+    text-align: center;
+}

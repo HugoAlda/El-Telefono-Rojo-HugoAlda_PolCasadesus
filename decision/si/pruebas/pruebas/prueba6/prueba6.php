@@ -5,22 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
     <title>Pregunta 1</title>
 
 </head>
 <body>
 
-    <h1>Pregunta 1</h1>
+    <h1>Prueba nº6</h1>
 
-    <form action="verificar_respuesta.php" method="POST">
+    <h4>En que año se hizo el ultimo reset?</h4>
 
-        <input type="hidden" name="pregunta" value="1">
+    <form action="" method="POST">
 
+        <label for=""></label>
         <input type="text" name="respuesta">
-
-        <button type="submit">Verificar</button>
+        <br>
+        <br>
+        <button type="submit">Comprobar</button>
 
     </form>
     
+    <?php
+
+        
+
+    ?>
+
 </body>
 </html>

@@ -16,60 +16,60 @@
 
 <?php
 
-    include_once "./../../menu.php"; // Ajusta la ruta según la ubicación real del archivo
+    // include_once "./../../menu.php"; // Ajusta la ruta según la ubicación real del archivo
 
-    // Inicia la sesión si aún no se ha iniciado
-    if (session_status() == PHP_SESSION_NONE) {
-        session_start();
-    }
+    // // Inicia la sesión si aún no se ha iniciado
+    // if (session_status() == PHP_SESSION_NONE) {
+    //     session_start();
+    // }
 
-    verificarProgreso('nivel1');
+    // verificarProgreso('nivel1');
 
-    // Verificar si el usuario intenta acceder a un nivel sin completar los anteriores
-    function verificarProgreso($nivelActual) {  
-    $niveles = $_SESSION['niveles'];
-    switch ($nivelActual) {
-        case 'nivel2':
-            if (!$niveles['nivel2']) {
-                header('Location: error.php?error=2');
-                exit();
-            }
-            break;
-        case 'nivel3':
-            if (!$niveles['nivel3']) {
-                header('Location: error.php?error=3');
-                exit();
-            }
-            break;
-        case 'nivel4':
-            if (!$niveles['nivel4']) {
-                header('Location: error.php?error=4');
-                exit();
-            }
-            break;
-        case 'nivel5':
-            if (!$niveles['nivel5']) {
-                header('Location: error.php?error=5');
-                exit();
-            }
-            break;
-        case 'nivel6':
-            if (!$niveles['nivel6']) {
-                header('Location: error.php?error=6');
-                exit();
-            }
-            break;
-        case 'nivelfinal':
-            // Verifica que todos los niveles anteriores se hayan completado
-            if (!array_reduce($niveles, function($carry, $item) {
-                return $carry && $item;
-            }, true)) {
-                header('Location: error.php?error=final');
-                exit();
-            }
-            break;
-    }
-    }
+    // // Verificar si el usuario intenta acceder a un nivel sin completar los anteriores
+    // function verificarProgreso($nivelActual) {  
+    // $niveles = $_SESSION['niveles'];
+    // switch ($nivelActual) {
+    //     case 'nivel2':
+    //         if (!$niveles['nivel2']) {
+    //             header('Location: error.php?error=2');
+    //             exit();
+    //         }
+    //         break;
+    //     case 'nivel3':
+    //         if (!$niveles['nivel3']) {
+    //             header('Location: error.php?error=3');
+    //             exit();
+    //         }
+    //         break;
+    //     case 'nivel4':
+    //         if (!$niveles['nivel4']) {
+    //             header('Location: error.php?error=4');
+    //             exit();
+    //         }
+    //         break;
+    //     case 'nivel5':
+    //         if (!$niveles['nivel5']) {
+    //             header('Location: error.php?error=5');
+    //             exit();
+    //         }
+    //         break;
+    //     case 'nivel6':
+    //         if (!$niveles['nivel6']) {
+    //             header('Location: error.php?error=6');
+    //             exit();
+    //         }
+    //         break;
+    //     case 'nivelfinal':
+    //         // Verifica que todos los niveles anteriores se hayan completado
+    //         if (!array_reduce($niveles, function($carry, $item) {
+    //             return $carry && $item;
+    //         }, true)) {
+    //             header('Location: error.php?error=final');
+    //             exit();
+    //         }
+    //         break;
+    // }
+    // }
 ?>
 
 <body>
@@ -118,12 +118,12 @@
     <script src="./prueba1.js"></script>
 
     <?php
-        // Suponiendo que la condición para completar el nivel 1 es cuando se envía un formulario llamado 'completar_nivel1'
-        if (isset($_POST['btn'])) {
-            $_SESSION['niveles']['nivel1'] = true;
-            header('Location: ./../../menu.php'); // Redirige al menú después de completar el nivel 1
-            exit();
-        }
+        // // Suponiendo que la condición para completar el nivel 1 es cuando se envía un formulario llamado 'completar_nivel1'
+        // if (isset($_POST['btn'])) {
+        //     $_SESSION['niveles']['nivel1'] = true;
+        //     header('Location: ./../../menu.php'); // Redirige al menú después de completar el nivel 1
+        //     exit();
+        // }
     ?>
 
 </body>
