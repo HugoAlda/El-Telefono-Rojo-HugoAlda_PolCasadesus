@@ -511,7 +511,7 @@
 <text transform="matrix(1 0 0 1 591.7997 429.5999)" style="font-family:'Tahoma'; font-size:4px;" class="maplabels1">Com.</text>
 <text transform="matrix(1 0 0 1 944.0992 458.728)" style="font-family:'Tahoma'; font-size:7px;" class="maplabels1">Fiyi</text>
 </a>
-<a href="./../../menu.php">
+<a href="../prueba4/prueba4.php"> 
     <text transform="matrix(1 0 0 1 743.3992 199.0705)" style="font-family:'Tahoma'; font-size:10px;" class="maplabels1">Rusia</text>
 </a>
 <a href="./../../../../no/rendicion.php">

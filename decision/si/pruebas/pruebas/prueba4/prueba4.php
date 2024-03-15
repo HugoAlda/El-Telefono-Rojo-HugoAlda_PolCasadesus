@@ -10,25 +10,35 @@
     <title>Prueba nº4</title>
 </head>
 <body>
-<h1>Prueba nº4</h1>
+    <h1>Prueba nº4</h1>
 
-<body>
-<h2>Selecciona al famoso reptiliano:</h2>
-<form method="POST" action="recepcion_p4.php">
-    <div class="img-container">
-        <img src="img/isabel.jpg" alt="Imagen 1">
-        <input type="radio" name="respuesta" value="imagen1" required>
-    </div>
+    <h2>Selecciona al famoso reptiliano:</h2>
+    <form action="../prueba5/prueba5.php" method="POST">
+        <div class="container">    
+            <div class="img-container">
+                <img src="img/isabel.jpg" alt="Imagen 1">
+                <input type="radio" name="respuesta" value="imagen1" required>
+            </div>
 
-    <div class="img-container">
-        <img src="img/justin.jpg" alt="Imagen 2">
-        <input type="radio" name="respuesta" value="imagen2">
-    </div>
+            <div class="img-container">
+                <img src="img/justin.jpg" alt="Imagen 2">
+                <input type="radio" name="respuesta" value="imagen2">
+            
+            </div>
+        
+            <div class="img-container">
+                <img src="img/jordan.jpg" alt="Imagen 3">
+                <input type="radio" name="respuesta" value="imagen3">
+            </div> 
+        </div>
+       
+        <div class="button-container">
+            <button name="btn" type="submit">Enviar</button>
+        </div>
 
-    <div class="img-container">
-        <img src="img/jordan.jpg" alt="Imagen 3">
-        <input type="radio" name="respuesta" value="imagen3">
-    </div> 
-</form>
-    <button type="submit">Enviar</button>
+        <br>
+     
+    </form>
+
 </body>
+</html>

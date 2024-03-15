@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="es">
 <head>
 
     <meta charset="UTF-8">
@@ -14,65 +12,8 @@
 
 </head>
 
-<?php
-
-    // include_once "./../../menu.php"; // Ajusta la ruta según la ubicación real del archivo
-
-    // // Inicia la sesión si aún no se ha iniciado
-    // if (session_status() == PHP_SESSION_NONE) {
-    //     session_start();
-    // }
-
-    // verificarProgreso('nivel1');
-
-    // // Verificar si el usuario intenta acceder a un nivel sin completar los anteriores
-    // function verificarProgreso($nivelActual) {  
-    // $niveles = $_SESSION['niveles'];
-    // switch ($nivelActual) {
-    //     case 'nivel2':
-    //         if (!$niveles['nivel2']) {
-    //             header('Location: error.php?error=2');
-    //             exit();
-    //         }
-    //         break;
-    //     case 'nivel3':
-    //         if (!$niveles['nivel3']) {
-    //             header('Location: error.php?error=3');
-    //             exit();
-    //         }
-    //         break;
-    //     case 'nivel4':
-    //         if (!$niveles['nivel4']) {
-    //             header('Location: error.php?error=4');
-    //             exit();
-    //         }
-    //         break;
-    //     case 'nivel5':
-    //         if (!$niveles['nivel5']) {
-    //             header('Location: error.php?error=5');
-    //             exit();
-    //         }
-    //         break;
-    //     case 'nivel6':
-    //         if (!$niveles['nivel6']) {
-    //             header('Location: error.php?error=6');
-    //             exit();
-    //         }
-    //         break;
-    //     case 'nivelfinal':
-    //         // Verifica que todos los niveles anteriores se hayan completado
-    //         if (!array_reduce($niveles, function($carry, $item) {
-    //             return $carry && $item;
-    //         }, true)) {
-    //             header('Location: error.php?error=final');
-    //             exit();
-    //         }
-    //         break;
-    // }
-    // }
-?>
-
 <body>
+    <h1 class="titulo">Prueba nº1</h1>
     <main>
         <section class="seccion1">
         <h1>Encuentra las parejas:</h1>
@@ -109,22 +50,15 @@
             <h2 id="t-restante" class="estadisticas">Tiempo: 50 segundos</h2>
             <h2 id="movimientos" class="estadisticas">Movimientos: 0</h2>
             <br>
-            <form action="../../menu.php" method="POST" id="formPHP">
-                <input type="submit" name="btn" value="Siguiente prueba" id="botonMenu" style="display: none;" onclick="mostrarBotonMenu()">
-            </form>
+            <div class="div">
+                <form action="../prueba2/prueba2.php" method="POST" id="formPHP">
+                    <input type="submit" name="btn" value="Siguiente prueba" id="botonMenu" style="display: none;" onclick="mostrarBotonMenu()">
+                </form>
+            </div>
         </section>
     </main>
     
     <script src="./prueba1.js"></script>
-
-    <?php
-        // // Suponiendo que la condición para completar el nivel 1 es cuando se envía un formulario llamado 'completar_nivel1'
-        // if (isset($_POST['btn'])) {
-        //     $_SESSION['niveles']['nivel1'] = true;
-        //     header('Location: ./../../menu.php'); // Redirige al menú después de completar el nivel 1
-        //     exit();
-        // }
-    ?>
 
 </body>
 </html>

@@ -24,6 +24,10 @@ main {
     text-align: center;
 }
 
+.titulo {
+    text-align: center;
+}
+
 h1 {
     font-size: 36px;
     text-transform: uppercase;
@@ -62,12 +66,26 @@ img {
     width: 100%;
 }
 
-button#botonMenu:hover {
+#botonMenu {
+    text-align: center;
+}
+
+#botonMenu:hover {
     background-color: rgb(68, 0, 0);
+    text-align: center;
+}
+
+p {
+    color: red;
 }
 
 @media screen and (max-width: 850px) {
     main {
         grid-template-columns: 1fr;
     }
+}
+
+.div {
+    display: flex;
+    justify-content: center;
 }

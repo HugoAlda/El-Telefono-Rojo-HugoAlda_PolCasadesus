@@ -1,5 +1,13 @@
-<!DOCTYPE html>
-<html lang="es">
+<?php
+    
+    session_start(); // Initialize session
+
+    if (isset($_POST['btn'])) {
+        $_SESSION['prueba2'] = $_POST['btn'];
+    }
+
+?>
+
 <head>
 
     <meta charset="UTF-8">
@@ -15,6 +23,12 @@
 
 </head>
 <body>
+
+    <br>
+
+    <h1>Prueba nº2</h1>
+
+    <h4>¡Muevelos según lo que creas que son!</h4>
 
     <div class="container">
         <img src="./img/a.jpg" draggable="true" ondragstart="drag(event)" id="elite">
@@ -32,14 +46,21 @@
         </div>
     </div>
     
-    <form action="../../menu.php" method="POST" id="formPHP">
-        <input type="submit" name="btn" value="Siguiente prueba" id="botonMenu" style="display: none;" onclick="mostrarBotonMenu()">
-    </form>
+    <div class="div">
+        <form action="../prueba3/prueba3.php" method="POST" id="formPHP">
+            <input type="submit" name="btn" value="Siguiente prueba" id="botonMenu" style="display: none;" onclick="mostrarBotonMenu()">
+        </form>
+    </div>
+    
 
     <script src="script.js"></script>
 
     <?php
-        
+
+        if (!isset($_SESSION['prueba2'])){
+            header("Location: ../prueba1/prueba1.php?error=validacion_prueba1");
+        }
+
     ?>
 
 </body> 

@@ -9,7 +9,7 @@ body {
     background-color: black;
 }
 
-h1 {
+h1, p {
     text-align: center;
     color: red;
 }

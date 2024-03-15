@@ -1,5 +1,12 @@
-<!DOCTYPE html>
-<html lang="es">
+<?php
+
+    session_start(); // Initialize session
+
+    if (isset($_POST['btn'])){
+        $_SESSION['prueba6'] = $_POST['btn'];
+    }
+
+?>
 <head>
 
     <meta charset="UTF-8">
@@ -20,21 +27,15 @@
 
     <h4>En que año se hizo el ultimo reset?</h4>
 
-    <form action="" method="POST">
+    <form action="../final/final.php" method="POST">
 
-        <label for=""></label>
+        <label for="respuesta"></label>
         <input type="text" name="respuesta">
         <br>
         <br>
-        <button type="submit">Comprobar</button>
+        <button name="btn" type="submit">Comprobar</button>
 
     </form>
-    
-    <?php
-
-        
-
-    ?>
 
 </body>
 </html>
