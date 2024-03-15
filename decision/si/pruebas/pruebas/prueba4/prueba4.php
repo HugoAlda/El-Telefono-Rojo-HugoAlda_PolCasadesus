@@ -2,6 +2,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style_prueba4.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+
     <title>Pregunta 1</title>
 </head>
 <body>
@@ -9,7 +14,7 @@
 
 <body>
 <h2>Selecciona al famoso reptiliano:</h2>
-<form method="POST">
+<form method="POST" action="recepcion_p4.php">
     <div class="img-container">
         <img src="img/isabel.jpg" alt="Imagen 1">
         <input type="radio" name="respuesta" value="imagen1" required>
@@ -27,13 +32,3 @@
 </form>
     <button type="submit">Enviar</button>
 </body>
-    
-<?php
-// Comprobamos si se ha enviado la respuesta y si es correcta
-if(isset($_POST['respuesta']) && $_POST['respuesta'] === 'imagen1') {
-    header("location: ../../menu.php");
-} else {
-    $mensaje = "Respuesta incorrecta. Por favor, intenta de nuevo.";
-}
-?>
-
