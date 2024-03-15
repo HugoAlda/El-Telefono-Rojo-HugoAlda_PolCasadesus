@@ -1,23 +1,28 @@
-// Array of draggable images
+function mostrarBotonMenu() {
+    // Mostrar el botón del menú
+    document.getElementById("botonMenu").style.display = "block";
+}
+
+// Array de imágenes arrastrables
 const images = [
-    document.getElementById('loro'),
-    document.getElementById('gato')
+    document.getElementById('elite'),
+    document.getElementById('hibrido')
 ];
 
-// Array of drop targets
+// Array de destinos de soltar
 const targets = [
     document.getElementById('0'),
     document.getElementById('1')
 ];
 
-// Attach dragstart event listener to each image
+// Adjuntar el escuchador de eventos 'dragstart' a cada imagen
 images.forEach(image => {
     image.addEventListener('dragstart', e => {
         e.dataTransfer.setData('text', e.target.id);
     });
 });
 
-// Attach dragover and drop event listeners to each target
+// Adjuntar el escuchador de eventos 'dragover' y 'drop' a cada destino
 targets.forEach(target => {
     target.addEventListener('dragover', e => {
         e.preventDefault();
@@ -26,49 +31,30 @@ targets.forEach(target => {
     target.addEventListener('drop', e => {
         e.preventDefault();
 
-        // Get the ID of the draggable image
+        // Obtener el ID de la imagen arrastrable
         const id = e.dataTransfer.getData('text');
 
-        // Get the draggable image
+        // Obtener la imagen arrastrable
         const image = document.getElementById(id);
 
-        // Move the image to the target
+        // Mover la imagen al destino
         target.appendChild(image);
 
-        // Adjust the size of the image to fit the target container
+        // Ajustar el tamaño de la imagen para que se ajuste al contenedor de destino
         const targetWidth = target.clientWidth;
         const targetHeight = target.clientHeight;
 
         image.style.width = targetWidth + 'px';
         image.style.height = targetHeight + 'px';
-    });
-});
 
-// Attach click event listeners to each map label
-const labels = document.querySelectorAll('.maplabels1');
-labels.forEach(label => {
-    label.addEventListener('click', e => {
-        // Prevent default link behavior
-        e.preventDefault();
+        // Verificar si tanto 'elite' como 'hibrido' están en sus respectivos destinos
+        const eliteInTarget0 = document.getElementById('0').contains(document.getElementById('elite'));
+        const hibridoInTarget1 = document.getElementById('1').contains(document.getElementById('hibrido'));
 
-        // Send AJAX request to PHP script to validate the link
-        const xhr = new XMLHttpRequest();
-        xhr.open('GET', 'prueba2.php?link=' + label.textContent);
-        xhr.onload = () => {
-            if (xhr.status === 200) {
-                const response = JSON.parse(xhr.responseText);
-                if (response.success) {
-                    // Redirect to the specified URL if the link is valid
-                    window.location.href = label.getAttribute('href');
-                } else {
-                    // Display error message if the link is invalid
-                    const error = document.createElement('div');
-                    error.className = 'error';
-                    error.textContent = response.message;
-                    document.body.appendChild(error);
-                }
-            }
-        };
-        xhr.send(); // This line was missing in the original code
+        // Si ambas imágenes están en sus respectivos destinos, mostrar el botón
+        if (eliteInTarget0 && hibridoInTarget1) {
+            // Llamar a la función para mostrar el botón del menú
+            mostrarBotonMenu();
+        }
     });
 });

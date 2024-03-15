@@ -109,7 +109,7 @@
             <h2 id="t-restante" class="estadisticas">Tiempo: 50 segundos</h2>
             <h2 id="movimientos" class="estadisticas">Movimientos: 0</h2>
             <br>
-            <form action="prueba1.php" method="POST" id="formPHP">
+            <form action="../../menu.php" method="POST" id="formPHP">
                 <input type="submit" name="btn" value="Siguiente prueba" id="botonMenu" style="display: none;" onclick="mostrarBotonMenu()">
             </form>
         </section>

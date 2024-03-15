@@ -17,8 +17,8 @@
 <body>
 
     <div class="container">
-        <img src="./img/a.jpg" draggable="true" ondragstart="drag(event)" id="loro">
-        <img src="./img/b.jpg" draggable="true" ondragstart="drag(event)" id="gato">
+        <img src="./img/a.jpg" draggable="true" ondragstart="drag(event)" id="elite">
+        <img src="./img/b.jpg" draggable="true" ondragstart="drag(event)" id="hibrido">
     </div>
 
     <div class="container-figura">
@@ -32,8 +32,8 @@
         </div>
     </div>
     
-    <form action="./prueba3.php">
-
+    <form action="../../menu.php" method="POST" id="formPHP">
+        <input type="submit" name="btn" value="Siguiente prueba" id="botonMenu" style="display: none;" onclick="mostrarBotonMenu()">
     </form>
 
     <script src="script.js"></script>
