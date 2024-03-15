@@ -23,7 +23,7 @@
         <select name="frecuencia" id="frecuencia">
             <option value=""></option>
         </select>
-        <input name="comprobar" id="comprobar" type="button" value="Comprobar">
+        <input type="button" value="Comprobar" name="comprobar" id="comprobar">
     </form>
 
     <img src="./img/medidor.png" alt="Imagen del medidor">

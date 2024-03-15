@@ -26,8 +26,10 @@
                 <h1>Reglas del juego</h1>
             </div>
 
-            <p>¡Buenas querido aventurero descubridor de la verdad! Te voy a explicar las reglas de tu pequeña aventura para salvar el mundo. Tendras que superar unas cuantas pruebas para que sepamos que eres digno de la verdad y te podamos entregar la lengua de fuego para apagar de una vez por todas el Popocatépetl de su inminente destrucción. Para ello deberas recolectar las 6 partes de la lanza de fuego perdida.</p>
+            <p>¡Buenas querido aventurero descubridor de la verdad! Te voy a explicar las reglas de tu pequeña aventura para salvar el mundo. Tendras que superar unas cuantas pruebas para que sepamos que eres digno de poseer la lengua de fuego para apagar de una vez por todas el Popocatépetl de su inminente destrucción. Para ello deberas recolectar las diferentes partes de la lanza de fuego perdida, ya que acabo con bastantes estragos desde la última vez que el gran profeta Karles Torah la uso para apagar el Popocatépetl. Por cada una de las 6 pruebas que completes recibiras fragmentos de la lanza de fuego, una vez superadas las 6 pruebas y recolectados los fragmentos de la lanza de fuego tendras que unirlos en una última prueba antes de poder apagar el Popocatépetl.</p>
             
+            <p>¡Mucha suerte querido aventurero!</p>
+
             <div class="contenedor-form">
                 <form action="./recibir/recibir.php" method="GET">
                     <p class="titulo-reto">¿Aceptas el reto?</p>
