@@ -54,6 +54,25 @@ function bloquearTarjetas(){
     }
 }
 
+// Agrega esta función para mostrar el popup
+function mostrarPopup() {
+    alert("¡Se ha agotado el tiempo!");
+    window.location.href = "./../../menu.php"; // Reemplaza "url_del_menu" con la URL de tu menú
+}
+
+function contarTiempo(){
+    tiempoRegresivoId = setInterval(() => {
+        timer--;
+        mostrarTiempo.innerHTML = `Tiempo: ${timer} segundos`;
+        if(timer == 0){
+            clearInterval(tiempoRegresivoId);
+            bloquearTarjetas();
+            mostrarPopup(); // Mostrar el popup cuando el temporizador llegue a cero
+        }
+    },1000);
+}
+
+
 //Funcion Principal
 function destapar(id){
 
@@ -96,7 +115,6 @@ function destapar(id){
                 tarjeta1.disabled = false;
                 tarjeta2.disabled = false;
                 tarjetasDestapadas = 0;
-
             },700);
         }
     }

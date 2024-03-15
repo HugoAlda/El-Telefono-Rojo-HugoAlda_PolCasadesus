@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="./style_prueba2.css">
 
-    <title>Prueba 2</title>
+    <title>Prueba nº2</title>
 
 </head>
 <body>

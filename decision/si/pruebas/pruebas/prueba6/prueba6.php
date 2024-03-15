@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <title>Pregunta 1</title>
+    <title>Prueba nº6</title>
 
 </head>
 <body>
